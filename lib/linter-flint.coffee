@@ -61,16 +61,14 @@ module.exports = LinterFlint =
 
     return new Promise (Resolve) ->
       projectPath = atom.project.getPaths()[0]
-      Data = []
+      Data = ''
       Process = CP.exec(cmd, {cwd: projectPath})
-      Process.stderr.on 'data', (data) -> Data.push(data.toString())
+      Process.stderr.on 'data', (data) -> Data = data.toString()
       Process.on 'close', ->
         Content = []
-        for line in Data
-          l_regex = xregexp.exec(line, regex)
-          Content.push l_regex
-          console.log "linter-flint regex: #{l_regex}" if atom.inDevMode()
-          console.log "linter-flint: #{line}" if atom.inDevMode()
+        for line in Data.split('\n')
+          console.log "linter-flint split line: #{line}" if atom.inDevMode()
+          Content.push xregexp.exec(line, regex)
         ToReturn = []
         Content.forEach (regex) ->
           console.log "linter-flint regex content:  #{regex}" if atom.inDevMode()
