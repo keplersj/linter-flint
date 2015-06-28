@@ -3,7 +3,7 @@
   "main": "./lib/linter-flint",
   "version": "0.0.0",
   "description": "Lint projects using flint",
-  "repository": "https://github.com/k2b6s9j/linter-flint",
+  "repository": "https://github.com/AtomLinter/linter-flint",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
