@@ -1,7 +1,7 @@
 {
   "name": "linter-flint",
   "main": "./lib/linter-flint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lint projects using flint",
   "repository": "https://github.com/AtomLinter/linter-flint",
   "license": "MIT",
