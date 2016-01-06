@@ -16,7 +16,7 @@
     }
   },
   "dependencies": {
-    "atom-package-deps": "^3.0.6"
+    "atom-package-deps": "^3.0.7"
   },
   "package-deps": [
     "linter"
