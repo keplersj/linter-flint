@@ -1,12 +1,42 @@
 {
   "name": "linter-flint",
-  "main": "./lib/linter-flint",
+  "main": "./lib/linter-flint.js",
   "version": "0.1.2",
   "description": "Lint projects using flint",
   "repository": "https://github.com/AtomLinter/linter-flint",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "configSchema": {
+    "executablePath": {
+      "type": "string",
+      "default": "flint"
+    },
+    "skipReadme": {
+      "type": "boolean",
+      "default": false
+    },
+    "skipContributing": {
+      "type": "boolean",
+      "default": false
+    },
+    "skipLicense": {
+      "type": "boolean",
+      "default": false
+    },
+    "skipBootstrap": {
+      "type": "boolean",
+      "default": false
+    },
+    "skipTestScript": {
+      "type": "boolean",
+      "default": false
+    },
+    "skipScripts": {
+      "type": "boolean",
+      "default": false
+    }
   },
   "providedServices": {
     "linter": {
@@ -16,7 +46,9 @@
     }
   },
   "dependencies": {
-    "atom-package-deps": "^4.0.1"
+    "atom-linter": "^9.0.1",
+    "atom-package-deps": "^4.0.1",
+    "escape-html": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "^3.16.1",
