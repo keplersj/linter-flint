@@ -1,5 +1,24 @@
 # Change Log
 
+## [v1.0.0](https://github.com/AtomLinter/linter-flint/tree/v1.0.0) (2017-03-15)
+[Full Changelog](https://github.com/AtomLinter/linter-flint/compare/v0.1.2...v1.0.0)
+
+**Implemented enhancements:**
+
+- Implement specs [\#7](https://github.com/AtomLinter/linter-flint/issues/7)
+- Add CI configuration [\#19](https://github.com/AtomLinter/linter-flint/pull/19) ([Arcanemagus](https://github.com/Arcanemagus))
+- Rewrite in ES2017 [\#18](https://github.com/AtomLinter/linter-flint/pull/18) ([Arcanemagus](https://github.com/Arcanemagus))
+- Update atom-package-deps to version 4.0.1 🚀 [\#11](https://github.com/AtomLinter/linter-flint/pull/11) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- atom-package-deps@3.0.8 untested ⚠️ [\#8](https://github.com/AtomLinter/linter-flint/pull/8) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- atom-package-deps@3.0.7 untested ⚠️ [\#6](https://github.com/AtomLinter/linter-flint/pull/6) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+- Update all dependencies 🌴 [\#5](https://github.com/AtomLinter/linter-flint/pull/5) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
+**Fixed bugs:**
+
+- Deprecated selector in `linter-flint\styles\linter-flint.less` [\#16](https://github.com/AtomLinter/linter-flint/issues/16)
+- Rewrite in ES2017 [\#18](https://github.com/AtomLinter/linter-flint/pull/18) ([Arcanemagus](https://github.com/Arcanemagus))
+- Remove styles [\#17](https://github.com/AtomLinter/linter-flint/pull/17) ([Arcanemagus](https://github.com/Arcanemagus))
+
 ## [v0.1.2](https://github.com/AtomLinter/linter-flint/tree/v0.1.2) (2015-09-30)
 [Full Changelog](https://github.com/AtomLinter/linter-flint/compare/v0.1.1...v0.1.2)
 
