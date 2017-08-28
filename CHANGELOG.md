@@ -1,5 +1,13 @@
 # Change Log
 
+## [v1.0.1](https://github.com/AtomLinter/linter-flint/tree/v1.0.1) (2017-08-28)
+[Full Changelog](https://github.com/AtomLinter/linter-flint/compare/v1.0.0...v1.0.1)
+
+**Implemented enhancements:**
+
+- Update eslint to version 4.5.0 🚀 [\#22](https://github.com/AtomLinter/linter-flint/pull/22) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update atom-linter to version 10.0.0 🚀 [\#20](https://github.com/AtomLinter/linter-flint/pull/20) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v1.0.0](https://github.com/AtomLinter/linter-flint/tree/v1.0.0) (2017-03-15)
 [Full Changelog](https://github.com/AtomLinter/linter-flint/compare/v0.1.2...v1.0.0)
 
