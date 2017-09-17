@@ -2,7 +2,7 @@
 
 import * as path from 'path';
 
-const lint = require('../lib/linter-flint.js').provideLinter().lint;
+const { lint } = require('../lib/linter-flint.js').provideLinter();
 
 const goodPath = path.join(__dirname, 'fixtures', 'goodProj', 'package.json');
 const badPath = path.join(__dirname, 'fixtures', 'badProj', 'package.json');
@@ -22,9 +22,7 @@ describe('The Flint provider for Linter', () => {
     atom.project.addPath(path.dirname(goodPath));
     waitsForPromise(() => atom.workspace.open(goodPath).then(editor =>
       lint(editor).then(messages =>
-        expect(messages.length).toBe(0),
-      ),
-    ));
+        expect(messages.length).toBe(0))));
   });
 
   it('checks a project with issues and reports the found issues', () => {
@@ -54,7 +52,6 @@ describe('The Flint provider for Linter', () => {
           severity: 'info',
           html: 'Make it easy to run the test suite regardless of project type. (<a href="http://bit.ly/JZjVL6">link</a>)',
         }]);
-      }),
-    ));
+      })));
   });
 });
